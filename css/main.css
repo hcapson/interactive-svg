@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#left-eye {
+  animation: lefteye 3s infinaite linear;
+}
+
+#right-eye {
+  animation: righteye 3s infinite linear;
+}
+
+@keyframes lefteye {
+
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
